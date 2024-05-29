@@ -70,6 +70,7 @@ async function init(){
 
 require("./routes/auth.route")(app)
 require("./routes/category.route")(app)
+require("./routes/product.route")(app)
 /**
  * Lets start the server
  */
